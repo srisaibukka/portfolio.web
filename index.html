@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+    <div id="section-home">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand" href="#hero">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="#hero">
+                        Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-link" href="#hero">About me</a>
+                    <a class="nav-link" href="#projects">projects</a>
+                    <a class="nav-link" href="#project-2">Recent work</a>
+                    <a class="nav-link" href="#contact">Get In Touch</a>
+                </div>
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link" href="https://www.linkedin.com/in/sri-sai-bukka-2a5587371/" target="_blank">in</a>
+                    <a class="nav-link" href="https://youtube.com/@eternaldawnyt?si=h-avUoNnfv4LWbma" target="_blank">YT</a>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <section id="hero" class="container">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 hero-text">
+                            <h1>Bukka Sri Sai</h1>
+                            <p>
+                                Hello! I am a B.Tech student passionate about technology and
+                                software development. I am currently learning the fundamentals
+                                of web development, including HTML and CSS. My goal is to
+                                build clean, efficient, and user-friendly applications.
+                            </p>
+                            <button class="button" onclick="display('section-resumepage')">
+                                View my CV >
+                            </button>
+                        </div>
+                        <div class="col-lg-5 hero-image">
+                            <img src="https://cdn-icons-png.flaticon.com/512/7084/7084424.png" alt="A professional headshot" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="worked-with">
+                <h2>Worked with</h2>
+            </section>
+
+            <section id="projects" class="container">
+                <h2>My Projects</h2>
+                <div class=container>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="project-card">
+                                <h3>Project 1: Basic Calculator</h3>
+                                <p>
+                                    A simple calculator built using C++ as a part of my
+                                    first-semester coursework.
+                                </p>
+                                <a href="https://github.com/srisaibukka" target="_blank">View on GitHub</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="project-card" id="project-2">
+                                <h3>Project 2:Portfolio Website</h3>
+                                <p>
+                                    This very website, built from scratch using HTML, CSS, and
+                                    Bootstrap.
+                                </p>
+                                <a href="https://github.com/srisaibukka" target="_blank">View on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>Get In Touch</h2>
+                <p>
+                    I'm currently available for new opportunities. Feel free to send
+                    me an email!
+                </p>
+                <a href="mailto:srisaibukka30062006@gmail.com" class="email-link">srisaibukka30062006@gmail.com</a>
+            </section>
+        </main>
+
+        <footer>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Get In Touch</a></li>
+                </ul>
+            </nav>
+            <p class="copyright">&copy; 2025 Bukka Sri Sai. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <div id="section-resumepage">
+        <div class="resume-wrapper">
+            <div class="resume-header">
+                <img src="https://cdn-icons-png.flaticon.com/512/7084/7084424.png" alt="Bandla Sathwick" />
+                <h1>Bukka Sri Sai</h1>
+                <p class="header-job-title">B-Tech Student</p>
+            </div>
+
+            <div class="resume-block resume-block--shaded">
+                <h2>Contact Details</h2>
+                <p>srisaibukka30062006@gmail.com</p>
+                <p>9398289572</p>
+                <p>Hyderabad, Moula-ali</p>
+            </div>
+
+            <div class="resume-block resume-block--shaded">
+                <h2>Education</h2>
+                <div class="experience-item">
+                    <h3>B-Tech, Computer Science (Expected)</h3>
+                    <p>Next Wave Institute</p>
+                    <p class="item-date">2025 - 2029</p>
+                </div>
+            </div>
+
+            <div class="resume-block resume-block--shaded">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Web Development (HTML, CSS) - Beginner</li>
+                    <li>Python - Beginner</li>
+                </ul>
+            </div>
+
+            <div class="resume-block resume-summary">
+                <h2>Summary</h2>
+                <p>
+                    Aspiring B-Tech student with a strong foundational knowledge of web
+                    development and Python. Eager to learn new technologies, contribute
+                    to projects, and grow my skills in the tech industry.
+                </p>
+            </div>
+
+            <div class="resume-block">
+                <h2>Projects</h2>
+
+                <div class="experience-item">
+                    <h3>Personal Portfolio Website</h3>
+                    <p class="item-date">November 2025</p>
+                    <ul>
+                        <li>
+                            Designed and built a personal resume website from scratch.
+                        </li>
+                        <li>
+                            Practiced using fundamental HTML tags and CSS properties like
+                            margin, padding, color, and background-color.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="resume-block">
+                <h2>References</h2>
+                <p>Available upon request</p>
+            </div>
+        </div>
+
+        <div class="back-button-container">
+            <button class="button" onclick="display('section-home')"> Back to Home
+            </button>
+        </div>
+    </div>
+
+    <div id="section3"></div>
+
+    <script type="text/javascript" src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
